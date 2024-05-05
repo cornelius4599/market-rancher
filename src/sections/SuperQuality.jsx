@@ -9,20 +9,18 @@ const SuperQuality = () => {
     >
       <div className='flex flex-1 flex-col'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
-          We Provide You
-          <span className='text-coral-red'> Super </span>
-          <span className='text-coral-red'>Quality </span> Shoes
+          Experience
+          <span className='text-yellow-400'> The </span>
+          <span className='text-yellow-400'>Roadshow </span> Revolution
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+         Join us as we hit the road and bring the excitement of our brand activation to a city near you! Our roadshow events are where the magic happens-immersing audiences in unforgettable experiences and forging meaningful connections.
         </p>
         <p className='mt-6 lg:max-w-lg info-text'>
-          Our dedication to detail and excellence ensures your satisfaction
+          Discover how our innovative approach to brand activation is reshaping the marketing landscape, one roadshow at a time.
         </p>
         <div className='mt-11'>
-          <Button label='View details' />
+          <Button label='View gallery' />
         </div>
       </div>
 
