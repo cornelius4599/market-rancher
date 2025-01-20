@@ -27,7 +27,7 @@ const ContactForm = () => {
           id="email"
           type="email"
           placeholder="Your Email"
-          className="input"
+          className="input py-3 px-5"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
@@ -35,14 +35,14 @@ const ContactForm = () => {
         <label className="text-lg font-semibold" htmlFor="message">Message:</label>
         <textarea
           id="message"
-          placeholder="Your Message"
+          placeholder="Your Message" 
           className="input"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           rows={4}
           required
         />
-        <button type="submit" className="button bg-yellow-400 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded-lg">
+        <button type="submit" className="button bg-yellow-400 hover:bg-yellow-600 text-white font-semibold py-3 px-5 rounded-lg">
           Send
         </button>
       </form>

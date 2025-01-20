@@ -23,7 +23,7 @@ const Hero = () => {
           A 360° Below The
           </span>
           <br />
-          <span className='text-yellow-400 inline-block mt-3'> Line</span>  Agency
+          <span className='text-yellow-400 inline-block mt-3 '> Line</span> Agency
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
          We specialize in the art of experiential marketing and brand activation to elevate your brand.
